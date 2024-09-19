@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="App">
       <div className="profile-card">
-        <img src= {"public/download.jpg"} alt="Profile" className="profile-picture" />
+        <img src= {"download.jpg"} alt="Profile" className="profile-picture" />
         <h1 className="profile-name">{profileData.name}</h1>
         <p className="profile-bio">{profileData.bio}</p>
       </div>
